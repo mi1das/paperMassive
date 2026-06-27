@@ -1,0 +1,3 @@
+# One factor changed vs. baseline: learning rate.
+name: lr_low
+learning_rate: 1.0e-5

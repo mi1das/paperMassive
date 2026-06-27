@@ -1,0 +1,17 @@
+# Environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Hugging Face / datasets caches
+.cache/
+
+# Run artefacts: model checkpoints are large and reproducible from configs.
+results/runs/
+
+# Keep aggregated, lightweight results under version control (see results/).
+!results/
+!results/*.json
+!results/*.csv
+!results/*.tex

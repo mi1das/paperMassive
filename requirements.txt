@@ -1,0 +1,19 @@
+# Direct dependencies (pinned). See requirements.lock.txt for the full,
+# transitively resolved environment.
+#
+# PyTorch is installed separately from the CUDA index, e.g.:
+#   pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+# (use the cpu index-url if you have no NVIDIA GPU).
+torch==2.6.0
+transformers==4.57.6
+datasets==5.0.0
+accelerate==1.14.0
+scikit-learn==1.9.0
+numpy==2.5.0
+pandas==3.0.3
+matplotlib==3.11.0
+PyYAML==6.0.3
+# gbert-base ships a WordPiece vocab + a legacy config without `model_type`;
+# sentencepiece/protobuf are needed for tokenizer conversion.
+sentencepiece==0.2.1
+protobuf==7.35.1

@@ -1,0 +1,3 @@
+# One factor changed vs. baseline: number of epochs.
+name: epochs_high
+num_epochs: 5
